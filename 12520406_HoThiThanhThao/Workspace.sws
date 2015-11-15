@@ -4,8 +4,9 @@
 
 <Workspace>
 	<Local Expanded="Yes">
-		<Model Expanded="Yes" ID="{ED48875D-52CF-4875-AEBB-9871FEA823FA}" Loaded="No" Name="Sales_website" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="sales_website.oom"/>
-		<Model Expanded="Yes" ID="{29563A88-95A4-4224-BCB8-4CFFF2563315}" Name="UC22: Approve claims" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="/document/public/group03/document/design/Sequence Diagram/Thao/UC22- Approve Claims.oom"/>
+		<Model Expanded="Yes" ID="{ED48875D-52CF-4875-AEBB-9871FEA823FA}" Name="Sales_website" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="sales_website.oom"/>
+		<Model Expanded="Yes" ID="{29563A88-95A4-4224-BCB8-4CFFF2563315}" Name="UC22: Approve claims" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="/document/public/group03/document/design/Sequence Diagram/Thao/UC22- Approve Claims.oom"/>
+		<Model Expanded="Yes" ID="{2EC1D301-4A62-417B-B411-74F34E6BECC2}" Name="ResourceDiagram" Type="{A3D646C2-7F72-4197-8A31-32275EB456B4}" URL="ResourceDiagram.fem"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
