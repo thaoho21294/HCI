@@ -1,0 +1,54 @@
+#header {
+	margin: auto;
+		
+}
+
+img {
+	text-align:center;	
+	margin:auto;
+}
+
+#aside {
+	width:12%;
+	float:left;
+	margin:20px;
+}
+
+#section {
+	width:65%;
+	float:left;
+	margin-left:50px;
+	min-height:500px;
+}
+
+#bd {
+	min-width:1024px;
+}
+
+p.aside {
+	padding:12px;
+	 
+}
+
+#ad {
+	float:left;
+	width:12%;
+	margin:20px;
+	border: 1px ridge #333;
+}#bd #mydiv .container #aside p {
+	text-align: left;
+	width: 100%;
+}
+#bd #mydiv .container #aside {
+	border: 1px ridge #000;
+}
+#bd #mydiv .container {
+	border: 1px inset #F00;
+	width: 100%;
+}
+#bd #mydiv .container #aside p {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #00F;
+}

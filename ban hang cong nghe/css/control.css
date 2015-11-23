@@ -1,0 +1,80 @@
+.form {
+	margin: 10px;
+	width: 800px;
+	border: 1px ridge #009;
+	display: block;
+	height: auto;
+	float: left;
+	padding: 10px;
+	text-align: center;
+}
+.main .form .item_name #textfield {
+	float: left;
+	height: 95%;
+	width: 95%;
+}
+.main .form .image_item #textfield {
+	float: left;
+	height: 10%;
+	width: 95%;
+}
+
+.main {
+	margin: auto;
+	height: auto;
+	width: 500px;
+	padding: 30px;
+	display: block;
+	text-align: center;
+}
+.main .form .infomation textarea {
+	height: 95%;
+	width: 95%;
+	max-height:95%;
+	max-width:95%;
+	margin: auto;	
+}
+.main .form .detail textarea {
+	height: 95%;
+	width: 95%;
+	max-height:95%;
+	max-width:95%;
+}
+
+
+.form .item_name {
+	float: left;
+	height: 50px;
+	width: 80%;
+	border: 1px ridge #000;
+	list-style-position: inside;
+	display: block;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.form .image_item {
+	float: left;
+	height: 300px;
+	width: 80%;
+	border: 1px ridge #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.form .infomation {
+	float: left;
+	height: 500px;
+	width: 80%;
+	border: 1px ridge #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.form .detail {
+	float: left;
+	height: 500px;
+	width: 80%;
+	border: 1px ridge #000;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}

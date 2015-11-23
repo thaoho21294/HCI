@@ -1,0 +1,23 @@
+.price{
+	font-size: 300%;
+	color: #FF0000 ;
+}
+.product-description{
+font-size: 160.07%;
+color: #000;
+margin-bottom: 15px;
+}
+#choose-color{
+width: 200px;
+}
+.count-input{
+margin-left: 0px;
+margin-right: 0px;
+width: 50px;
+}
+.tru-button{
+margin-right: 0px;	
+}
+.cong-buuton{
+margin-left: 0px;
+}
