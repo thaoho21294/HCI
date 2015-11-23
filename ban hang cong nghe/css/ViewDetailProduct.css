@@ -2,6 +2,7 @@
 	font-size: 300%;
 	color: #FF0000 ;
 }
+
 .product-description{
 font-size: 160.07%;
 color: #000;
@@ -20,4 +21,22 @@ margin-right: 0px;
 }
 .cong-buuton{
 margin-left: 0px;
+}
+#main-content{
+	margin-bottom: 20px;
+}
+footer {
+   position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+   border-color: black;
+   background-color: scrollbar;
+}
+#search_form{
+margin-top: 15px;
+}
+#shopping_cart{
+margin-top: 15px;
 }

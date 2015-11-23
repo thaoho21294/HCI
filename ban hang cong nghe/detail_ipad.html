@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//Ddiv XHTML 1.0 divansitional//EN" "http://www.w3.org/div/xhtml1/Ddiv/xhtml1-divansitional.ddiv">
 <html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<link  rel="stylesheet" type="text/css" href="CSS/MyStyles.css"/>
+<link  rel="stylesheet" type="text/css" href="CSS/ViewDetailProduct.css"/>
 <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css"/>
 <link href="css/items.css" rel="stylesheet" type="text/css" />
 <link href="css/style_hover.css" rel="stylesheet" type="text/css" />
-
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 <!-- <link rel="stylesheet" type="text/css" href="CSS/custom.min.css" /> -->
 
@@ -42,9 +42,33 @@
 	<div id="mydiv" >
     
     	<div id="header" style="width:100%; height:100%" > 
-            <span class="header"> 
-            	<p style="text-align:center"><img src="images/header.png" alt="Header" width="40%" height="20%" align="absmiddle"/> </p>
-            </span>
+            <div class="container-fluid" >
+			<div class="row">
+				
+				<div class="col-md-8">
+				<div class="col-md-6">
+					<h1 id= "store_brand">TECH SHOP</h1>
+				</div>
+				<form method="GET" role="form" id="search_form">
+					<div id="custom-search-input" class="col-md-6">
+						<div class="input-group">
+							<input type="text" class="form-control input-lg" placeholder="Bạn tìm gì?" />
+							<span class="input-group-btn">
+								<button class="btn btn-info btn-lg" type="submit">
+									<i class="glyphicon glyphicon-search"></i>
+								</button>
+							</span>
+						</div>
+					</div>
+				</form>	
+				</div>
+				<div class= "col-md-4">
+				   <a href="#" class="btn btn-primary btn-lg" id="shopping_cart">
+						<img src="images/shopping_cart.png" width="20" height="20" alt="Shopping cart" />
+					</a>
+					</div>
+			</div>
+		</div>
         </div>
 		<!-- Navigation -->
         <div class="bs-docs-section clearfix">
@@ -52,7 +76,7 @@
           <div class="col-lg-12"style="width:100%;" >
             <div class="bs-component">
               <nav class="navbar navbar-default">
-                <div class="container-fluid">
+                <div class="container">
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                       <span class="sr-only">Toggle navigation</span>
@@ -60,7 +84,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                  <a class="navbar-brand" href="laptop.html">TECH SHOP </a></div>
+                 
 
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav btn-group">
@@ -89,17 +113,7 @@
                       <li class="nav navbar-nav btn-group">
        		          <a href="phukien.html"> Phụ kiện </a></li>
                     </ul>
-                   
-                    <form class="navbar-form navbar-right" role="search">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                      </div>
-                      <button type="submit" class="btn btn-default">Search</button>
-                    </form>
-                    
-                     <a href="order.html" class="btn btn-primary btn-lg navbar-right">
-						<img src="images/shopping_cart.png" width="20" height="20" alt="Shopping cart" />
-					</a>
+                 
                   </div>
                 </div>
               </nav>
@@ -111,23 +125,13 @@
         
 		<!-- Content -->
 		
-		<div class="container" >
-		  <div class="col-lg-1" id="aside">
-          		<p> Sản phẩm nổi bậc </p>
-                <img src="image/dienthoai_iphone/2.png" alt="Header" width="100%" height="20%"  />
-                <div></div>
-                <img src="image/laptop_dell/_dell_inspiron_7548-chi-tiet.png" alt="Header" width="100%" height="20%"  />
-                <div></div>
-                <img src="image/laptop_dell/201506151654090210_Dell N3551-Cel N2840U-chi-tiet.png" alt="Header" width="100%" height="20%"  />
-                <div></div>
-                <img src="image/laptop_asus/2.png" alt="Header" width="100%" height="20%"  />
-          </div>
+		<div class="container main-content" >
           <!-- InstanceBeginEditable name="EditRegion3" -->
 		  <div id="section">
-          		<div class= "col-md-6">
+          		<div class= "col-lg-6">
 				<img src="images/ipad_13.png" width="500px" height="500px"> 
 				</div>
-			<div class = "col-md-6">
+			<div class = "col-lg-6">
 				<h2 color="#000">Máy tính bảng Ipad Air 2 Wifi 16GB</h2>
 				<p>Bảo hành 12 tháng</p>	
 				<p class= "price">
@@ -139,33 +143,7 @@
 				</p>
 				<h2 class="product-description">MÔ TẢ NHANH</h2>
                 
-				<p>Apple iPad là Air 2 là chiếc máy tính bảng 9.7 inch mỏng và nhẹ nhất hiện nay. Chạy hệ điều hành iOS 8. RAM lên đến 2GB. Bộ nhớ trong 16GB cho phép chạy nhiều ứng dụng khác nhau.
-               iPad Air 2 16GB Wifi mỏng 6.1 mm
-iPad Air 2 16GB Wifi mỏng chỉ 6.1 mm
-Màn hình Retina 9.7 inches sắc nét
-iPad Air 2 16GB Wifi có màn hình Retina 9.7 inch, độ phân giải 1536 x 2048 pixels với góc nhìn rộng cho khả năng hiển thị hình ảnh chân thực, rõ nét ở nhiều góc độ khác nhau. Màn hình với cảm ứng nhạy, các thao tác lướt mượt, độ phản hồi nhanh và bạn sẽ cảm nhận được độ chân thật đến ngạc nhiên khi trải nghiệm với các ngón tay của mình.
-iPad Air 2 16GB Wifi màn hình Retina 9.7 inch
-iPad Air 2 16GB Wifi với màn hình cảm ứng mượt mà, phản hồi nhanh
-Camera iSight 8MP
-iPad Air 2 16GB Wifi được trang bị camera iSight 8MP cho chất lượng ảnh sắc nét, màu sắc trung thực, nhận diện khuôn mặt tốt, hỗ trợ quay video HD. Camera trước FaceTime của máy vẫn giữ độ phân giải 1.2 MP phục vụ cho việc chụp ảnh tự sướng và thực hiện các cuộc gọi video chất lượng cao. Camera trên iPad Air 2 cho hình ảnh đẹp hơn hẳn các dòng tablet khác trên thị trường.
-iPad Air 2 16GB Wifi  camera iSight 8MP
-Camera iSight của iPad Air 2 16GB Wifi cho chất lượng ảnh chụp đẹp, chân thực
-Mạnh mẽ, mượt mà với chip A8
-Máy được trang bị bộ xử lý Apple A8 cho hiệu năng hoạt động cao hơn, nhanh hơn khi xử lý các tác vụ đa nhiệm cũng như đáp ứng tốt nhu cầu chơi game, lướt web hay xem phim chất lượng cao. Sẽ dễ chịu và hào hứng vô cùng khi chơi những game mình yêu thích với tốc độ xử lý trơn tru không giật lag, hay xem những bộ phim bom tấn với chất lượng hình ảnh sống động như thật nhờ chip đồ họa M8.
-iPad Air 2 16GB Wifi với chip Apple A8 và M8
-Trải nghiệm đa nhiệm mượt mà, trơn tru với iPad Air 2 16GB Wifi
-Bảo mật vân tay Touch ID
-Touch ID - cảm biến bảo mật bằng vân tay cho máy với độ an toàn cao khi sử dụng. Với Touch ID, mở khóa máy bằng vân tay của chính bạn hay thực hiện các thanh toán mua hàng qua Apple Pay nhanh chóng và an tâm.
-Bảo mật vân tay Touch ID trên iPad Air 2 16GB Wifi 
-Cảm biến bảo mật vân tay Touch ID với độ an toàn cao và tiện lợi
-Kết nối không dây nhanh chóng
-iPad Air 2 16GB Wifi có khả năng kết nối không dây nhanh chóng với Wifi hay chia sẻ dữ liệu giữa các thiết bị của Apple với nhau qua AirDrop cực kỳ dễ dàng. Bạn sẽ hoàn toàn hài lòng về tốc độ trải trang web, tải nội dung, hình ảnh... trên chiếc máy tính bảng này.
-iPad Air 2 16GB Wifi kết nối không dây wifi, airdrop nhanh chóng
-Chia sẻ dữ liệu giữa các thiết bị của Apple cực nhanh thông qua AirDrop
-Hệ điều hành iOS 9
-Hệ điều hành iOS 9 là một bản nâng cấp tuyệt vời mà Apple mà mang đến cho người dùng của mình trong năm nay. Và sự kết hợp giữa chiếc iPad Air 2 16GB Wifi với iOS 9 tạo thành một bộ đôi hoàn hảo chứa đựng nhiều tính năng hứu ích. Quản lý pin thông minh hơn cho thời gian sử dụng pin lâu hơn, tính năng đa nhiệm chia đôi màn hình, hay những thay đổi hoàn toàn mới lạ khác mà khi tự mình khám phá bạn sẽ có được nhiều trải nghiệm thú vị.
-iPad Air 2 16GB Wifi với hệ điều hành iOS 9
-Sự kết hợp với iOS 9 mang đến những trải nghiệm hoàn toàn mới lạ</p>
+				<p>Apple iPad là Air 2 là chiếc máy tính bảng 9.7 inch mỏng và nhẹ nhất hiện nay. Chạy hệ điều hành iOS 8. RAM lên đến 2GB. Bộ nhớ trong 16GB cho phép chạy nhiều ứng dụng khác nhau.</p>
 
 			<form role="form">
 			<div class="form-group">
@@ -177,13 +155,13 @@ Sự kết hợp với iOS 9 mang đến những trải nghiệm hoàn toàn m�
 				</select>
 			</div>
 			<div class="form-group">
-				<label for="choose-color"><b>Chọn số lượng:</b></label>
+				<label for="choose-color"><b>Chọn SL:</b></label>
 				<button class="tru-button">-</button>
 				<input class="count-input" value="1"></input>
 				<button class="cong-button">+</button>
 			</div>
-			<button type="button" class="btn-danger btn-lg" width="100px">Thêm vào giỏ hàng</button>
-			
+			<button type="button" class="btn-primary btn-lg" width="100px"><img src="images/shopping_cart.png" width="20" height="20" alt="Shopping cart" /> Thêm vào giỏ hàng</button>
+			<button type="button" class="btn-danger btn-lg" width="100px">Mua ngay!</button>
 			</form>
            </div>
            </div>
@@ -232,7 +210,7 @@ Sự kết hợp với iOS 9 mang đến những trải nghiệm hoàn toàn m�
         </div>-->
 		<!-- Footer -->
         <footer>
-        <div class="row btn-primary" style="width:100%">
+        <div class="row">
           <div  style="text-align:center">
           	<p>Made by  </p>
             <p>Đại Học Công Nghệ Thông Tin Thành Phố Hồ Chí Minh - Đại Học Quốc Gia Thành Phố Hồ Chí Minh</p>
