@@ -1,0 +1,85 @@
+a {
+    text-decoration: none;
+    color: #464646;
+    transition: color 0.2s ease-in-out 0s;
+}
+a:hover {
+    text-decoration: none;
+    color: #b00000;
+}
+.blockTitle {
+    padding: 40px 0px 10px;
+    font-weight: normal;
+    width: 100%;
+
+}
+ul {
+  list-style-type: none;
+}
+
+ul.otherMovies li img {
+	float: left;
+	border: 5px solid #fff;
+	width: 200px;
+	height: 280px;
+	-webkit-transition: box-shadow 0.5s ease;
+	-moz-transition: box-shadow 0.5s ease;
+	-o-transition: box-shadow 0.5s ease;
+	-ms-transition: box-shadow 0.5s ease;
+	transition: box-shadow 0.5s ease;
+}
+.showing {
+	padding: 20px 20px 20px 20px;
+}
+.reviewing{
+	padding: 20px 20px 20px 20px;
+}
+
+.reviewing li img {
+  float: left;
+  margin: 0 15px 0 0;
+  width: 230px;
+  height: 150px;
+}
+.reviewing li {
+  padding: 10px;
+  overflow: auto;
+}
+
+.reviewing li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+.header:hover{
+	cursor: pointer;
+}
+.logo-company img{
+	width: 70px;
+	height: 50px;
+	padding-left: 20px;
+}
+.app-download img{
+	width: 80px;
+	height: 80px;
+}
+.end-contact{
+	margin-top:30px;
+	
+}
+.footer a {
+	padding-bottom: 10px;
+	color: #b4b4b4;
+}
+.footer p {
+	color: #b4b4b4;
+}
+.footer a:hover{
+	color: #fff;
+}
+.footer-content li{
+	padding-bottom: 20px;
+	
+}
+.area-company{
+	padding-top: 20px;
+}

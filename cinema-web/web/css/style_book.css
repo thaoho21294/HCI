@@ -1,0 +1,255 @@
+.book {
+	height: 100%;
+	width: 100%;
+	border: 2px solid #666;
+	float: left;
+}
+.title-content {
+	background-color: #CCC;
+	height: auto;
+	width: 100%;
+	float: left;
+}
+.full .main .header .book .left-book .title-content p {
+	font-size: 36px;
+	float: left;
+	width: 100%;
+	font-style: normal;
+	padding-left: 30px;
+	color: #000;
+}
+.detail-date {
+	height: auto;
+	width: 100%;
+	float: left;
+}
+.sum-titket {
+	height: auto;
+	width: 100%;
+	float: left;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-top-color: #666;
+	border-right-color: #666;
+	border-bottom-color: #666;
+	border-left-color: #666;
+}
+.ghe {
+	margin: 10px;
+	float: left;
+	height: auto;
+	width: auto;
+	padding: 3px;
+	font-size: 24px;
+	color: #0F3;
+}
+
+.money {
+	background-color: #9C3;
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+.information-guest {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.payment {
+	height: auto;
+	width: 100%;
+	float: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+.rightthanhtoan {
+	float: right;
+	height: auto;
+	width: auto;
+}
+
+
+.left-book {
+	float: left;
+	height: 100%;
+	width: 100%;
+	border: 0px solid #999;
+	min-width: 250px;
+	clear: both;
+}
+.tien {
+	margin: 10px;
+	height: auto;
+	width: auto;
+	padding: 5px;
+	float: right;
+	font-size: 36px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+}
+.ten {
+	margin: 0px;
+	padding: 10px;
+	float: left;
+	height: auto;
+	width: 100%;
+}
+
+.right-book {
+	height: auto;
+	float: left;
+	width: 100%;
+	min-width:800px;
+	background-color: #FFF;
+}
+.timer {
+	background-color: #000;
+	float: left;
+	height: 100px;
+	width: 100%;
+}
+.image {
+	float: left;
+	height: 100%;
+	width: auto;
+	background-color: #090;
+	background-repeat: no-repeat;
+}
+.full .main .header .book .left-book .timer .image img {
+	height: 100%;
+	width: auto;
+}
+.theloai {
+	font-size: 18px;
+	color: #D6D6D6;
+	background-color: #093;
+	float: left;
+	height: auto;
+	width: auto;
+	margin-left: 20px;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.tenrap {
+	height: auto;
+	width: auto;
+	margin: 20px;
+	float: left;
+}
+.rap {
+	float: left;
+	height: auto;
+	width: auto;
+}
+.Gio {
+	margin: 10px;
+	float: right;
+	padding-right: 10px;
+	font-size: 24px;
+	color: #0C3;
+	border: 1px solid #0C3;
+	height: auto;
+	width: auto;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+.full .main .header .book .left-book .detail-date .label.label-default span {
+	font-size: 24px;
+}
+.full .main .header .book .left-book .detail-date .tenrap span {
+	font-size: 24px;
+	color: #000;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+}
+.screen {
+	margin: 0px;
+	width: 700px;
+	height: auto;
+	background-color: #C33;
+	border: 1px dotted #039;
+	float: left;
+	text-align: center;
+}
+.bount {
+	float: left;
+	height: auto;
+	width: 100%;
+	overflow: auto;
+	display: table-row;
+}
+.inline {
+	display: table-cell;
+	width: auto;
+}
+
+
+.seat {
+	margin: 50px;
+
+	float: left;
+}
+.more {
+	float: left;
+	height: auto;
+	width: auto;
+}
+.row {
+	height: auto;
+	width: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.full .main .header .book .right-book .seat .row img {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+@media (min-width: 760px) {
+	.bount{
+	width: 50%;
+	height: 100%;
+	}
+	
+}
+.btnghe {
+	background-image: url(../images/ghe.png);
+	height: 16px;
+	width: 30px;
+	margin: 10px;
+	float: left;
+}
+.btnghe:hover{
+	background-image: url(../images/gehover.png);
+}

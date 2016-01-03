@@ -4,9 +4,15 @@
 
 <Workspace>
 	<Local Expanded="Yes">
-		<Model Expanded="Yes" ID="{ED48875D-52CF-4875-AEBB-9871FEA823FA}" Name="Sales_website" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="sales_website.oom"/>
-		<Model Expanded="Yes" ID="{29563A88-95A4-4224-BCB8-4CFFF2563315}" Name="UC22: Approve claims" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="/document/public/group03/document/design/Sequence Diagram/Thao/UC22- Approve Claims.oom"/>
-		<Model Expanded="Yes" ID="{2EC1D301-4A62-417B-B411-74F34E6BECC2}" Name="ResourceDiagram" Type="{A3D646C2-7F72-4197-8A31-32275EB456B4}" URL="ResourceDiagram.fem"/>
+		<Model Expanded="Yes" ID="{ED48875D-52CF-4875-AEBB-9871FEA823FA}" Loaded="No" Name="Sales_website" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="sales_website.oom"/>
+		<Model Expanded="Yes" ID="{29563A88-95A4-4224-BCB8-4CFFF2563315}" Loaded="No" Name="UC22: Approve claims" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="/document/public/group03/document/design/Sequence Diagram/Thao/UC22- Approve Claims.oom"/>
+		<Model Expanded="Yes" ID="{2EC1D301-4A62-417B-B411-74F34E6BECC2}" Loaded="No" Name="ResourceDiagram" Type="{A3D646C2-7F72-4197-8A31-32275EB456B4}" URL="ResourceDiagram.fem"/>
+		<Model Expanded="Yes" ID="{8BF6B571-7E40-4825-BF26-F647D06F4E66}" Loaded="No" Name="SD_Add Bill" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="/code/đồ án kì 1-2015/hci/12520406_hothithanhthao/sequence diagram.oom"/>
+		<Model Expanded="Yes" ID="{07BD404F-5CA3-4DEC-9A6F-D3F9914781E0}" Loaded="No" Name="SD_View Bill Diary" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="SD_View Bill Diary.oom"/>
+		<Model Expanded="Yes" ID="{3172D537-C947-4342-8600-A8317F817E56}" Loaded="No" Name="SD_Manage changing, returning" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="SD_Manage changing, returning.oom"/>
+		<Model Expanded="Yes" ID="{15EC380F-FA1B-4592-9D86-DF7EF3D0D317}" Loaded="No" Name="SD_Find Bill" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="SD_Find Bill.oom"/>
+		<Model Expanded="Yes" ID="{F440E585-99E8-4E60-97EA-CC3C8BA7E542}" Loaded="No" Name="recsys" Type="{A3D646C2-7F72-4197-8A31-32275EB456B4}" URL="recsys.fem"/>
+		<Model Expanded="Yes" ID="{88160651-2E26-497A-BBF0-B3853BC7B938}" Name="BaiTap1" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="BaiTap1.oom"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
