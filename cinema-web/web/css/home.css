@@ -50,36 +50,3 @@ ul.otherMovies li img {
   background: #eee;
   cursor: pointer;
 }
-.header:hover{
-	cursor: pointer;
-}
-.logo-company img{
-	width: 70px;
-	height: 50px;
-	padding-left: 20px;
-}
-.app-download img{
-	width: 80px;
-	height: 80px;
-}
-.end-contact{
-	margin-top:30px;
-	
-}
-.footer a {
-	padding-bottom: 10px;
-	color: #b4b4b4;
-}
-.footer p {
-	color: #b4b4b4;
-}
-.footer a:hover{
-	color: #fff;
-}
-.footer-content li{
-	padding-bottom: 20px;
-	
-}
-.area-company{
-	padding-top: 20px;
-}

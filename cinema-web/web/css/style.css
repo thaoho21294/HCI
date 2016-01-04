@@ -508,6 +508,7 @@ i.book {
 	background:#383838;
 	padding:4em 1em;
 	border-left: 1px solid #B4B4B4;
+	height: 100%;
 }
 .footer h6 {
 	color:#6F6F6F;
@@ -1362,7 +1363,7 @@ font-weight: 700;
 	.footer {
 		border-left: 1px solid #B4B4B4;
 		padding: 3em 0.5em;
-		height: 380px;
+		height: 100%;
 	}
 	.news-left-grid h2 {
 		font-size: 2.5em;	
@@ -1607,7 +1608,7 @@ font-weight: 700;
 		margin: 8px 0;
 	}
 	.footer {
-		height: 380px;
+		height: 100%;
 		border-left: 1px solid #B4B4B4;
 		padding: 2em 0em;
 	}
@@ -2220,3 +2221,50 @@ font-weight: 700;
 		overflow:hidden;
 	}
 } 
+.header:hover{
+	cursor: pointer;
+}
+.top-header:hover{
+	cursor: default;
+}
+.header-info:hover{
+	cursor: default;
+}
+.logo-company img{
+	width: 70px;
+	height: 50px;
+	padding-left: 20px;
+}
+.app-download img{
+	width: 80px;
+	height: 80px;
+}
+.end-contact{
+	margin-top:30px;
+	height: 100%;
+}
+.footer a {
+	padding-bottom: 10px;
+	color: #b4b4b4;
+}
+.footer p {
+	color: #b4b4b4;
+}
+.footer a:hover{
+	color: #fff;
+}
+.footer-content li{
+	padding-bottom: 20px;
+	
+}
+.area-company{
+	padding-top: 20px;
+}
+.login{
+	color: #b4b4b4;
+	margin-right: 30px;
+	margin-top: 5px;
+}
+ul {
+  list-style-type: none;
+}
